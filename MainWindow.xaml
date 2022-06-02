@@ -1,0 +1,17 @@
+﻿<Window x:Class="RPG_MV_MZ_Decoder.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RPG_MV_MZ_Decoder"
+        mc:Ignorable="d"
+        Title="Декодер RPG MV/MZ" Height="90" Width="350">
+    <Grid>
+        <Button Content="Указать файл игры" 
+                Margin="10,10,10,10"
+                FontFamily="Segoe UI"
+                FontSize="18"
+                Command="{Binding DecriptComm}"/>
+
+    </Grid>
+</Window>
